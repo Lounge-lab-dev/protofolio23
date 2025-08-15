@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<div class="loading-screen" id="loadingScreen">        
+    <div class="loading-center">
+        <div class="loading-text">Creating Experience</div>
+        <div class="loading-counter" id="loadingCounter">0</div>
+        <div class="loading-bar-container">
+            <div class="loading-bar">
+                <div class="loading-progress" id="loadingProgress"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="custom-cursor">
+    <i class="fa-solid fa-chevron-left"></i> <span>VIEW</span> <i class="fa-solid fa-chevron-right"></i>
+</div>
+<div class="custom-cursor-follower"></div>
+
+<header>
+    <div class="Nav-logo"><img src="img/Asset-1.png" alt=""></div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+        <div class="nav-overlay" id="navOverlay">
+    <div class="nav-header">
+        <div class="nav-portfolio-label">Folio Vol. 1</div>
+    </div>
+    
+    <div class="nav-content">
+        <div class="nav-line" id="navLine"></div>
+        <a href="#home" class="nav-link" data-index="0">HOME</a>
+        <a href="#about" class="nav-link" data-index="1">ABOUT</a>
+        <a href="#projects" class="nav-link" data-index="2">PROJECTS</a>
+        <a href="#contact" class="nav-link" data-index="3">CONTACT</a>
+
+    </div>
+    
+    <div class="nav-footer">
+        <a href="#" class="nav-social">TWITTER</a>
+        <a href="#" class="nav-social">INSTAGRAM</a>
+        <a href="#" class="nav-social">DRIBBBLE</a>
+        <a href="#" class="nav-social">BEHANCE</a>
+    </div>
+</div>
+
+<section class="hero" id="hero">
+    <div class="hero-info" id="text">
+        <h1>AHMED<br>ALYAMI</h1>
+        <div class="memoji" id="memoji">
+            <img src="img/logo.png" class="default" alt="">
+            <img src="img/logo-hover.png" class="hover" alt="">
+        </div>
+    </div>
+</section>
+
+    <section class="bento-section" id="about">
+        <div class="bento-grid">
+            <!-- Profile Card -->
+            <div class="bento-card bento-profile">
+                <div class="profile-content">
+                    <div class="apps-icons-content">
+                    <p class="apps-icons">Pr</p>
+                    <p class="apps-icons">Ae</p>
+                    <p class="apps-icons">Ps</p>
+                    <p class="apps-icons">Ai</p>
+                    <p class="apps-icons">Lr</p>
+                    <p class="apps-icons">Lr</p>
+                    </div>
+                    <h2>About Me</h2>
+                    <p>I'm Ahmed, a designer & developer passionate about crafting modern, user-friendly digital experiences that push creative boundaries.</p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Cards -->
+            <div class="bento-card bento-skill">
+                <div class="skill-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Creating beautiful user experiences</p>
+            </div>
+
+            <div class="bento-card bento-skill">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Branding</h3>
+                <p>Building a meanful logos</p>
+            </div>
+
+            <div class="bento-card bento-skill">
+                <div class="skill-icon">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <h3>3D Design</h3>
+                <p>Crafting immersive 3D visual experiences</p>
+            </div>
+
+            <!-- Featured Project Card -->
+            <div class="bento-card bento-featured">
+                <div class="featured-image">
+                    <div>Featured Project Image</div>
+                    <div class="featured-overlay">
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <h3>Featured Project</h3>
+                    <p>A showcase of my latest work combining design and technology</p>
+                    <a href="#" class="featured-link">
+                        View Case Study
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Card -->
+            <div class="bento-card bento-contact">
+                <h3>Let's Work Together</h3>
+                <p>Ready to bring your ideas to life?</p>
+                <a href="mailto:ahmed@example.com" class="contact-btn">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+
+            <!-- Social Card -->
+            <div class="bento-card bento-social">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-dribbble"></i>
+                        <span>Dribbble</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="projects" id="projects">
+    <div class="projects-container">
+        <h1 class="projects-header">
+            PROJECTS
+            <div class="header-controls">
+                <div class="header-arrow" id="prevBtn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="header-arrow" id="nextBtn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </h1>
+
+        <div class="projects-wrapper">
+            <div class="projects-track" id="projectsTrack">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/with khaled.png" alt="">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">WITH KHALED</h3>
+                        <span class="project-type">LOGO</span>
+                        <div class="project-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/shay 3esh.png" alt="">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Shay 3esh</h3>
+                        <span class="project-type">3D</span>
+                        <div class="project-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/snake set.png" alt="">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Snake set</h3>
+                        <span class="project-type">3d</span>
+                        <div class="project-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/foodies.png" alt="">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Foodies</h3>
+                        <span class="project-type">ui/ux</span>
+                        <div class="project-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/boyam.png" alt="">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Boyam</h3>
+                        <span class="project-type">3d</span>
+                        <div class="project-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        img<br>placeholder
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">PROJECT SIX</h3>
+                        <span class="project-type">PORTFOLIO</span>
+                        <div class="project-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation-dots" id="navigationDots"></div>
+    </div>
+</section>
+
+<section class="AboutMe">
+    <h1>AboutMe</h1>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
